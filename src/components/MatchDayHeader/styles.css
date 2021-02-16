@@ -1,0 +1,12 @@
+.header-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 75%;
+    margin: 25px auto 0;
+}
+
+.header-container > div {
+    width: 100px;
+    text-align: center;
+}

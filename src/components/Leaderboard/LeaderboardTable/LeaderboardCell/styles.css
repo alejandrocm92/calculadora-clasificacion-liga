@@ -1,0 +1,13 @@
+.cell {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 4px;
+    text-align: left;
+}
+
+.cell-header-x {
+    color: #70757a;
+}
+
+cell-header-y {
+    width: 200px;
+}

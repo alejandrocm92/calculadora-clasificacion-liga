@@ -16,7 +16,7 @@ class App extends React.Component {
   componentDidMount() {
     const matches = 'http://localhost/scrapper';
 
-    // Fetch data from API. This data does not live in the state since this data is immutable during the execution of the app, hence we just need to pass it around as props.
+    // Fetch data from API. This data does not live in the state since it is immutable during the execution of the app, hence we just need to pass it around as props.
     fetch(matches)
       .then((response) => response.json())
       .then((response) => {

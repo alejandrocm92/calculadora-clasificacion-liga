@@ -1,3 +1,10 @@
+Calculadora de tabla clasificatoria de liga implementada por medio de React.js y Redux. Esta aplicación se nutre de datos que en mi caso he optado por extraer de un pequeño web scrapper que he construído en PHP específicamente para recolectar datos en tiempo real de partidos e información de los equipos integrantes de la liga española. Para calcular la clasificación se han aplicado los distintos criterios de desempate del reglamento de la liga española (esta lógica está implementada en (src/services/calculateLeaderboardData.js)
+
+![Alt text](/screenshots/screenshot.png "App")
+
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
